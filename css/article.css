@@ -1,0 +1,295 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* La taille du contenu est de 1120px
+
+Google font Ã utiliser : work sans
+
+Liens du menu :
+
+- taille de texte 16px
+- couleur : #333
+
+taille du logo : 36px
+
+Grand titre : 32px, couleur #333 font weight 300
+
+Couleur des borders : #333
+
+Petit titres/ grand paragraphes : 32px, #333, font weight 300
+
+paragraphes : 15px, #777  */
+
+/* Uniformisation du document */
+
+*{
+    margin: 0;
+}
+
+.gt{
+    font-family: "Work Sans", serif;
+    font-style: normal;
+    font-size: 32px;
+    color: #333;
+    font-weight: 300;
+}
+
+.ptgp{
+    font-family: "Work Sans", serif;
+    font-style: normal;
+    font-size: 22px;
+    color: #333;
+    font-weight: 300;
+}
+
+.p{
+    font-family: "Work Sans", serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #777;
+}
+
+.Logo{
+    width: 36px;
+    padding: 20px 0;
+}
+
+.menu{
+    font-family: "Wors Sans", serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+/* Main */
+
+main{
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 125px;
+}
+
+#illu{
+    width: 100%;
+}
+
+.pp{
+    width: 40px;
+    border-radius: 50%;
+}
+
+#s1 div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#s1 div p{
+    padding: 0;
+}
+
+#s1 div div{
+    display: flex;
+    gap: 5px;
+    padding: 0;
+}
+
+.lc{
+    width: 10px;
+}
+
+#cit{
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 4px solid rgb(230, 230, 230);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#s1 p{
+    line-height: 30px;
+}
+
+.g{
+    font-weight: 600;
+}
+
+#s2{
+    padding-top: 30px;
+}
+
+#s2 p{
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+#s3{
+    display: flex;
+    padding: 30px 0;
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin: 30px 0;
+}
+
+.pp2{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#s3 div{
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+#s3 div p{
+    padding-top: 5px;
+}
+
+#s4 h2{
+    padding-top: 10px;
+}
+
+.comm{
+    display: flex;
+    padding-top: 40px;
+}
+
+.comm div div{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.comm div{
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+#s4{
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+#s5 textarea{
+    border: none;
+    border: 1px solid rgb(230, 230, 230);
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#post{
+    margin: 15px;
+    padding: 15px 30px;
+    color: white;
+    background-color: #2d2b2b;
+    border-radius: 50px;
+    height: auto;
+}
+
+#s5 div input{
+    border: none;
+    border: 1px solid rgb(230, 230, 230);
+    margin-top: 10px;
+    height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+#s5 div{
+    display: grid;
+}
+
+/* footer */
+
+footer{
+    padding-top: 75px;
+    border-top: 1px solid #777;
+    margin-top: 75px;
+}
+
+footer div{
+    max-width: 1120px;
+    margin: auto;
+}
+
+#fd1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    line-height: 27px;
+    align-items: center;
+}
+
+#fd1d{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#fd1d a{
+    text-decoration: none;
+}
+
+#fd2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+#fd2d{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin: 0;
+}
+
+#fb{
+    width: 10px;
+}
+
+#twt{
+    width: 18px;
+}
+
+#ln{
+    width: 15px;
+}
